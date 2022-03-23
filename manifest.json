@@ -1,0 +1,15 @@
+{
+  "name": "MkBookmarks",
+  "description": "Save bookmarks to the MkBookmarks web service.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_title": "Add Bookmarks",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
